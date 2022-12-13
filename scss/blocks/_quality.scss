@@ -1,0 +1,207 @@
+.quality {
+    margin-bottom: 168px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        border-radius: 15px;
+        background-color: $second_grey_blue;
+        width: 100%;
+        max-width: 1166px;
+        position: relative;
+    }
+
+    &__left-box {
+        padding-top: 88px;
+        width: 540px;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: $light_cream_BG;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        width: 540px;
+        height: 130px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $light_cream_BG;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__right-box {
+        transform: translateY(-90px);
+    }
+
+    &__right-img {
+        width: 100%;
+        max-width: 445px;
+        min-height: 474px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and(max-width:1000px) {
+    .quality {
+        margin-bottom: 128px;
+        padding-right: 40px;
+        padding-left: 40px;
+
+        &__container {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            background-color: $second_grey_blue;
+            width: 100%;
+            max-width: 1166px;
+            min-height: 504px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 573px;
+                top: -190px;
+                height: 320px;
+                display: inline-block;
+                background-image: url('../images/drinking__second-coffee.png');
+            }
+        }
+
+        &__left-box {
+            padding-top: 200px;
+            width: 540px;
+            height: 197px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            text-align: center;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 540px;
+            height: 125px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+
+        &__right-box {
+            display: none;
+        }
+    }
+}
+
+@media only screen and(max-width:640px) {
+    .quality {
+        margin-bottom: 450px;
+        padding-right: 24px;
+        padding-left: 24px;
+
+        &__container {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            background-color: $second_grey_blue;
+            width: 100%;
+            max-width: 327px;
+            min-height: 509px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 100%;
+                max-width: 279px;
+                height: 56px;
+                border-radius: 10px;
+                object-fit: cover;
+                top: -150px;
+                height: 320px;
+                display: inline-block;
+                background-image: url('../images/drinking__third-coffee.png');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+
+        &__left-box {
+            padding-top: 100px;
+            width: 327px;
+            height: 306px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            width: 279px;
+            text-align: center;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 228px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+
+        &__right-box {
+            display: none;
+        }
+    }
+}

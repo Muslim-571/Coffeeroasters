@@ -1,0 +1,21 @@
+.link {
+    width: 100%;
+    max-width: 217px;
+    height: 56px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 56px;
+    text-align: center;
+    color: $light_cream_BG;
+    background-color: $dark_cyan;
+    border-radius: 6px;
+    transition: 40ms ease all;
+
+    &:active {
+        background-color: $skyblue;
+        color: $light_cream_BG;
+        transition: 40ms ease all;
+    }
+}

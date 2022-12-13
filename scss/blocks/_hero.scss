@@ -1,0 +1,299 @@
+.hero {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 262px;
+
+    &__container {
+        width: 100%;
+        max-width: 1166px;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-image: url('../images/coffee__wallpaper.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: contain;
+        padding-top: 117px;
+        border-radius: 15px;
+        padding-bottom: 116px;
+    }
+
+    &__left-box {
+        width: 100%;
+        max-width: 493px;
+        min-height: 367px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__title {
+        width: 100%;
+        max-width: 493px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: $light_cream_BG;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 445px;
+        min-height: 78px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $light_cream_BG;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: 56px;
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .hero {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 305px;
+
+        &__container {
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-image: url('../images/coffee__wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 117px;
+            padding-bottom: 116px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 398px;
+            min-height: 292px;
+        }
+
+        &__title {
+            width: 100%;
+            max-width: 392px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+            font-style: normal;
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        &__text {
+            width: 100%;
+            max-width: 398px;
+            min-height: 75px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media only screen and(max-width:630px) {
+    .hero {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 505px;
+
+        &__container {
+            transform: translateY(92px);
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../images/coffee__wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 117px;
+            padding-bottom: 116px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 398px;
+            height: 292px;
+        }
+
+        &__title {
+            text-align: center;
+            width: 279px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 101px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 39px;
+        }
+    }
+}
+
+@media only screen and(max-width:500px) {
+    .hero {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 405px;
+
+        &__container {
+            transform: translateY(93px);
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../images/coffee__wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 117px;
+            padding-bottom: 116px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 398px;
+            height: 292px;
+        }
+
+        &__title {
+            text-align: center;
+            width: 279px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 101px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 39px;
+        }
+    }
+}
+
+@media only screen and(max-width:393px) {
+    .hero {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 405px;
+
+        &__container {
+            transform: translateY(93px);
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../images/coffee__wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 99px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 279px;
+            height: 301px;
+        }
+
+        &__title {
+            text-align: center;
+            width: 100%;
+            max-width: 279px;
+            font-family: 'Fraunces';
+            font-weight: 900;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 101px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 39px;
+        }
+    }
+}

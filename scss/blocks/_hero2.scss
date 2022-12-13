@@ -1,0 +1,334 @@
+.hero2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 167px;
+
+    &__container {
+        width: 100%;
+        max-width: 1166px;
+        height: auto;
+        background-image: url('../images/coffee__second-wallpaper.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        object-fit: cover;
+        border-radius: 15px;
+        padding: 137px 85px 137px;
+    }
+
+    &__left-box {
+        width: 100%;
+        max-width: 455px;
+        min-height: 176px;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: $light_cream_BG;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        width: 100%;
+        max-width: 445px;
+        min-height: 104px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $light_cream_BG;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .hero2 {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 144px;
+
+        &__container {
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            background-image: url('../images/coffee__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            object-fit: cover;
+            border-radius: 15px;
+            padding: 118px 233px 118px 58px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 398px;
+            min-height: 164px;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 40px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            width: 100%;
+            max-width: 398px;
+            min-height: 100px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:630px) {
+    .hero2 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 244px;
+
+        &__container {
+            transform: translateY(93px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            background-image: url('../images/coffee__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            object-fit: cover;
+            border-radius: 15px;
+            padding: 111px 24px 87px 24px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 279px;
+            min-height: 202px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 100%;
+            max-width: 279px;
+            min-height: 150px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:560px) {
+    .hero2 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 244px;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1166px;
+            height: auto;
+            background-image: url('../images/coffee__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            object-fit: cover;
+            border-radius: 15px;
+            padding: 111px 24px 87px 24px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 279px;
+            min-height: 202px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 100%;
+            max-width: 279px;
+            min-height: 150px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:500px) {
+    .hero2 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 220px;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 375px;
+            height: auto;
+            background-image: url('../images/coffee__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            object-fit: cover;
+            border-radius: 15px;
+            padding: 111px 24px 87px 24px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 279px;
+            min-height: 202px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 100%;
+            max-width: 279px;
+            min-height: 150px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:393px) {
+    .hero2 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 200px;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 375px;
+            height: auto;
+            background-image: url('../images/coffee__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            object-fit: cover;
+            border-radius: 15px;
+            padding: 111px 24px 87px 24px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 279px;
+            min-height: 202px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 100%;
+            max-width: 279px;
+            min-height: 150px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}

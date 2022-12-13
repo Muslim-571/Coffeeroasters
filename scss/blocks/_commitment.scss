@@ -1,0 +1,175 @@
+.commitment {
+    margin-bottom: 256px;
+
+    &__container {
+        width: 100%;
+        max-width: 1110px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 125px;
+    }
+
+    &__left-img {
+        width: 100%;
+        max-width: 445px;
+        min-height: 520px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    &__right-box {
+        width: 100%;
+        max-width: 540px;
+        min-height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: $dark_grey_blue;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        width: 530px;
+        height: 260px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $dark_grey_blue;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}
+
+@media only screen and(max-width:1104px) {
+    .commitment {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 304px;
+
+        &__container {
+            width: 100%;
+            max-width: 668px;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 68px;
+        }
+
+        &__left-img {
+            width: 100%;
+            max-width: 281px;
+            min-height: 470px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        &__right-box {
+            width: 100%;
+            max-width: 339px;
+            min-height: 433px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            color: $dark_grey_blue;
+            margin-bottom: 30px;
+        }
+
+        &__text {
+            width: 339px;
+            height: 350px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $dark_grey_blue;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:700px) {
+    .commitment {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 198px;
+
+        &__container {
+            width: 100%;
+            max-width: 327px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 48px;
+        }
+
+        &__left-img {
+            width: 327px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        &__right-box {
+            width: 100%;
+            max-width: 327px;
+            min-height: 453px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            width: 327px;
+            text-align: center;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            color: $dark_grey_blue;
+            margin-bottom: 30px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 327px;
+            height: 375px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: $dark_grey_blue;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}

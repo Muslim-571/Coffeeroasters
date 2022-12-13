@@ -1,0 +1,275 @@
+.hero3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 177px;
+
+    &__container {
+        width: 100%;
+        max-width: 1166px;
+        height: auto;
+        background-image: url('../images/cappucinno__wallpaper.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        object-fit: cover;
+        padding-top: 134px;
+        padding-bottom: 134px;
+        padding-left: 75px;
+        border-radius: 15px;
+    }
+
+    &__left-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: $light_cream_BG;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        width: 445px;
+        height: 78px;
+        color: $light_cream_BG;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .hero3 {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 144px;
+
+        &__container {
+            width: 100%;
+            max-width: 689px;
+            height: auto;
+            background-image: url('../images/cappucinno__wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: cover;
+            padding-top: 127px;
+            padding-bottom: 126px;
+            padding-left: 50px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        &__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: $light_cream_BG;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            width: 398px;
+            height: 75px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:630px) {
+    .hero3 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 250px;
+
+        &__container {
+            transform: translateY(93px);
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            background-image: url('../images/cappucinno__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: cover;
+            padding-top: 134px;
+            padding-bottom: 134px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            width: 279px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            color: $light_cream_BG;
+            margin-bottom: 22px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 75px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:560px) {
+    .hero3 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 250px;
+
+        &__container {
+            width: 100%;
+            max-width: 560px;
+            height: auto;
+            background-image: url('../images/cappucinno__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: cover;
+            padding-top: 134px;
+            padding-bottom: 134px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            width: 279px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            color: $light_cream_BG;
+            margin-bottom: 22px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 75px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and(max-width:425px) {
+    .hero3 {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 250px;
+
+        &__container {
+            width: 100%;
+            max-width: 327px;
+            height: auto;
+            background-image: url('../images/cappucinno__second-wallpaper.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: cover;
+            padding-top: 112px;
+
+
+            padding-bottom: 125px;
+            border-radius: 15px;
+        }
+
+        &__left-box {
+            width: 100%;
+            max-width: 279px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title {
+            width: 279px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            color: $light_cream_BG;
+            margin-bottom: 22px;
+        }
+
+        &__text {
+            text-align: center;
+            width: 279px;
+            height: 75px;
+            color: $light_cream_BG;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.8;
+        }
+    }
+}

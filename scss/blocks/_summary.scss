@@ -1,0 +1,193 @@
+.summary {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 162px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        max-width: 1215px;
+    }
+
+    &__main-right-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 46px;
+
+    }
+
+    &__right-box {
+        border-radius: 10px;
+        width: 100%;
+        max-width: 730px;
+        min-height: 208px;
+        background-color: $dark_grey_blue;
+        padding: 27px 64px 27px 64px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: $white;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    &__titles {
+        width: 602px;
+        height: 120px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: $white;
+    }
+
+    span {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: $dark_cyan;
+    }
+}
+
+@media only screen and(max-width:944px) {
+    .summary {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 144px;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1215px;
+        }
+
+        &__main-right-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+        }
+
+        &__right-box {
+            border-radius: 10px;
+            width: 689px;
+            background-color: $dark_grey_blue;
+            padding: 27px 43px 27px 44px;
+        }
+
+        &__text {
+            width: 172px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: $white;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &__titles {
+            width: 602px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: $white;
+        }
+
+        span {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: $dark_cyan;
+        }
+    }
+}
+
+@media only screen and(max-width:692px) {
+    .summary {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 120px;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1215px;
+        }
+
+        &__main-right-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 56px;
+        }
+
+        &__right-box {
+            border-radius: 10px;
+            width: 328px;
+            background-color: $dark_grey_blue;
+            padding: 32px 24px 32px 25px;
+        }
+
+        &__text {
+            width: 172px;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: $white;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        &__titles {
+            width: 602px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: $white;
+        }
+
+        span {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: $dark_cyan;
+        }
+    }
+}

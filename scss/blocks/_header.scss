@@ -1,0 +1,136 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo-image {
+        width: 100%;
+        max-width: 236px;
+        vertical-align: middle;
+        transition: 40ms ease all;
+
+        &:active {
+            transition: 40ms ease all;
+            opacity: 0.4;
+        }
+    }
+
+    &__burger-menu {
+        border: none;
+        background: none;
+        display: none;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding: 44px 0;
+    }
+
+    &__links {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: $grey;
+        transition: 40ms ease all;
+
+        &:active {
+            color: $dark_grey_blue;
+            transition: 40ms ease all;
+        }
+    }
+}
+
+@media only screen and(max-width:630px) {
+    .header {
+        position: relative;
+        z-index: 1001;
+        top: 0;
+        width: 100%;
+        position: fixed;
+        background-color: $light_cream_BG;
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        &__logo-image {
+            vertical-align: middle;
+            transition: 40ms ease all;
+
+            &:active {
+                transition: 40ms ease all;
+                opacity: 0.4;
+            }
+        }
+
+        &__nav-bar {
+            position: absolute;
+            background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+            top: 95%;
+            width: 100%;
+            left: 0;
+            height: 100vh;
+            display: none;
+        }
+
+        &__burger-menu {
+            display: block;
+            transform: translateY(30%);
+        }
+
+        &__off {
+            display: none;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+        }
+
+        &__links {
+            color: $dark_grey_blue;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+
+            &:active {
+                color: $dark_cyan;
+            }
+        }
+    }
+
+    .header--open .header {
+        &__on {
+            display: none;
+        }
+
+        &__off {
+            display: block;
+        }
+
+        &__nav-bar {
+            display: block;
+        }
+    }
+}
